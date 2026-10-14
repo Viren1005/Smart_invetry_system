@@ -14,7 +14,7 @@ interface Customer {
 
 export default function Udhaar() {
   const [customers, setCustomers] = useState<Customer[]>([]);
-  const [search, setSearch] = useState('');
+ const [search] = useState("");
   const [loading, setLoading] = useState(true);
   
   // Modal States

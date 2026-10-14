@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { TrendingUp, DollarSign, Wallet, ArrowUpRight, AlertTriangle, Phone, Bell } from 'lucide-react';
+import { TrendingUp, DollarSign, Wallet, ArrowUpRight, AlertTriangle, Bell } from 'lucide-react';
 import KPICard from '../components/KPICard';
 import { PageTransition } from '../components/Skeleton';
 import api from '../api';

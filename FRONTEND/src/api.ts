@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Connects to your local Node.js server
 const api = axios.create({
-  baseURL: 'https://smartshop-api-ai52.onrender.com',
+  baseURL: 'http://localhost:5000/api',
 });
 
 // Automatically attach the JWT VIP Pass to every request

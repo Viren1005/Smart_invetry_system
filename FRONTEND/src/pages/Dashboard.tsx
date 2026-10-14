@@ -45,7 +45,7 @@ export default function Dashboard() {
           setSummary(summaryRes.data);
         }
       } catch (error) {
-        console.error("Dashboard Math failed to load:", error);
+         console.error("Dashboard Math failed to load:", error);
       }
 
       // BLOCK 2: Fetch Low Stock Alerts (Isolated so it always runs)
